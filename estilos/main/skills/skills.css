@@ -1,0 +1,22 @@
+.skills {
+    background-color: #52057B;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 782px;
+    padding-bottom: 190px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .skills {
+        height: 1300px;
+        padding-bottom: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .skills {
+        height: 782px;
+    }
+}

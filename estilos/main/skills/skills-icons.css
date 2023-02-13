@@ -1,0 +1,12 @@
+.skills__icons {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .skills__icons {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

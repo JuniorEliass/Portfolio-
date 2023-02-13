@@ -1,0 +1,20 @@
+.sobre__paragrafo {
+    width: 490px;
+    font-family: 'Almarai', sans-serif;
+    font-size: 22px;
+    color: #ffffff; 
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    .sobre__paragrafo {
+        width: 204px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sobre__paragrafo {
+        width: 245px;
+        font-size: 22px;
+    }
+}

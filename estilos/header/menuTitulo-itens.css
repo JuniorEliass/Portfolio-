@@ -1,0 +1,24 @@
+.menu-titulo__itens {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 1rem;
+}
+
+.menu-titulo__itens:hover {
+    color: #BC6FF1;
+    text-decoration: underline;   
+}
+
+.menu-titulo__itensmobile {
+    color: #ffffff;
+    background-color: #BC6FF1;
+    display: flex;
+    width: 120px;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 1rem;  
+    
+}
+
+

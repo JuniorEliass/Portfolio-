@@ -1,0 +1,24 @@
+.sobre__foto {
+    width: 239px;
+    height: 223px;
+    background-color: #ffffff;
+    border-radius: 10rem;
+    background-image: url("../../../imagens/foto.jfif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 3rem;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    .sobre__foto {
+        width: 200px;
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sobre__foto {
+        width: 204px;
+    }
+}

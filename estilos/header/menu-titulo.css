@@ -1,0 +1,14 @@
+.menu__titulo {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .menu__titulo {
+        justify-items: start;
+        margin-right: 2.5rem;
+        font-size: 22px;
+        margin-left: 1rem;
+    }
+}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junior Elias</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Raleway:wght@100;300;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="menu">
+        <h1 class="menu__titulo">Junior Elias</h1>
+        <span class="material-symbols-outlined" id="menu__botao" onclick="clickMenu()">menu</span>
+        <div class="menu__links">
+            <a href="#sobre" class="menu-titulo__itens">Sobre mim</a>
+            <a href="#skils" class="menu-titulo__itens">Skills</a>
+            <a href="#projetoss" class="menu-titulo__itens">Projetos</a>
+            <a href="#contatoss" class="menu-titulo__itens">Contatos</a>
+        </div>
+    </header>
+    <div class="menu__itens">
+        <div class="menu__itensmobile">
+            <a href="#sobre" class="menu-titulo__itensmobile">Sobre mim</a>
+            <a href="#skils" class="menu-titulo__itensmobile">Skills</a>
+            <a href="#projetoss" class="menu-titulo__itensmobile">Projetos</a>
+            <a href="#contatoss" class="menu-titulo__itensmobile">Contatos</a>
+        </div>
+    </div>
+    <main>
+        <section class="sobre" id="sobre">
+            <div class="sobre-card">
+                <div class="sobre__foto">
+                </div>
+                <div class="sobre__paragrafo">
+                    <p>O que é Lorem Ipsum?
+                        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem
+                        sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos
+                        e os embaralhou para fazer um livro de modelos de tipos.</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skils">
+            <h1 class="skills__titulo">Skills</h1>
+            <div class="skills__imagens">
+                <div class="skills-cards">
+                    <img src="./imagens/html5.png" alt="" class="skills__icons">
+                    <p>HTML</p>
+                </div>
+                <div class="skills-cards">
+                    <img src="./imagens/js.png" alt="" class="skills__icons">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skills-cards">
+                    <img src="./imagens/css3.png" alt="" class="skills__icons">
+                    <p>CSS</p>
+                </div>
+            </div>
+        </section>
+        <section class="projetos" id="projetoss">
+            <div class="projetos__box">
+                <h1 class="projetos__titulo">Projetos</h1>
+
+                <div class="projetos__galeria">
+
+                    <div class="projetos__card">
+                        <p>Tela de formulários</p>
+                        <a href="https://junioreliass.github.io/Tela-de-formulario/"><img src="./imagens/projetoForm.png" alt="" class="projetos__imagens"></a>
+                    </div>
+
+                    <div class="projetos__card">
+                        <p>Fruta & Fruto</p>
+                        <a href="https://junioreliass.github.io/Fruta-Fruto/"><img src="./imagens/projetoFrutas.png" alt="" class="projetos__imagens"></a>
+                    </div>
+
+                    <div class="projetos__card" >
+                        <p>Em desenvolvimento</p>
+                        <img src="./imagens/loading.avif" alt="" class="projetos__imagens">
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+        <section class="Contatoss">
+            <div class="contatos" id="contatoss">
+                <div class="contatos__card">
+                    <span class="material-symbols-outlined">mail</span>
+                    <a>vingadoresav4@gmail.com</a>
+                </div>
+                <div class="contatos__card">
+                    <span class="material-symbols-outlined">phone_enabled</span>
+                    (85) 9 8791-5065
+                </div>
+                <div class="contatos__card">
+                    <span class="material-symbols-outlined">link</span>
+                    <a href="https://www.linkedin.com/in/junior-elias-2214641a4/">Linkedin</a>
+                </div>
+                <div class="contatos__card">
+                    <span class="material-symbols-outlined">link</span>
+                    <a href="https://github.com/JuniorEliass">Github</a>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>Junior Elias &copy;</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.sobre-card {
+    width: 996px;
+    height: 560px;
+    background-color: #892CDC;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (min-width: 0px) and (max-width: 1024px) {
+    .sobre-card {
+        width: 274px;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .sobre-card {
+        width: 637px;
+        flex-direction: row;
+    }
+}

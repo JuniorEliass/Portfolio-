@@ -1,0 +1,32 @@
+@import url("./estilos/header/menu-links.css");
+@import url("./estilos/header/menu-titulo.css");
+@import url("./estilos/header/menu.css");
+@import url("./estilos/header/menuTitulo-itens.css");
+
+@import url("./estilos/main/sobreMim/sobre-card.css");
+@import url("./estilos/main/sobreMim/sobre-foto.css");
+@import url("./estilos/main/sobreMim/sobre-paragrafo.css");
+@import url("./estilos/main/sobreMim/sobre.css");
+
+@import url("./estilos/main/skills/skills-icons.css");
+@import url("./estilos/main/skills/skills-imagem.css");
+@import url("./estilos/main/skills/skills.css");
+@import url("./estilos/main/skills/skills-cards.css");
+@import url("./estilos/main/skills/skills-titulo.css");
+
+@import url("./estilos/main/projetos/projetos-card.css");
+@import url("./estilos/main/projetos/projetos-galeria.css");
+@import url("./estilos/main/projetos/projetos-imagens.css");
+@import url("./estilos/main/projetos/projetos.css");
+@import url("./estilos/main/projetos/projetos-box.css");
+
+@import url("./estilos/main/contatos/contatos-card.css");
+@import url("./estilos/main/contatos/contatos.css");
+@import url("./estilos/main/contatos/Contatoss.css");
+
+@import url("./estilos/rodape/rodape.css");
+
+body {
+    font-family: 'Almarai', sans-serif;
+    background-color: #52057B;
+}

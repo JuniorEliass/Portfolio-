@@ -1,0 +1,18 @@
+.projetos__galeria {
+    display: flex; 
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .projetos__galeria {
+        flex-direction: column;
+        height: 2000px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .projetos__galeria {
+        flex-direction: column;
+        width: 750px;
+        
+    }
+}

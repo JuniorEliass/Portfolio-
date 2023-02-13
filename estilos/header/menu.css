@@ -1,0 +1,34 @@
+.menu {
+    font-family: 'Almarai', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    height: 117px;
+    align-items: center;
+    background-color: #000000;
+}
+
+#menu__botao {
+    color: #BC6FF1;
+    display: none;
+}
+
+.menu__itens {
+    display: none;
+    background-color: #52057B;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .menu {
+        justify-content: space-around;
+    }
+    #menu__botao {
+        display: block;
+    }
+    .menu__itens {
+        font-weight: 700;
+        font-family: 'Almarai', sans-serif;
+        display: none;
+        justify-content: end; 
+        cursor: pointer;
+    }
+}
